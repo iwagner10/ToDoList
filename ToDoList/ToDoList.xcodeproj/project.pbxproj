@@ -17,6 +17,8 @@
 		0FD0C79426B8321E00D95E02 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C79326B8321E00D95E02 /* ToDoListUITests.swift */; };
 		0FD0C7A226B8363400D95E02 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C7A126B8363400D95E02 /* ToDoTableViewController.swift */; };
 		0FD0C7A426B8374800D95E02 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C7A326B8374800D95E02 /* ToDo.swift */; };
+		0FD0C7A626B83FB400D95E02 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C7A526B83FB400D95E02 /* AddToDoViewController.swift */; };
+		0FD0C7A826B846B000D95E02 /* CompletedToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C7A726B846AF00D95E02 /* CompletedToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0FD0C79526B8321E00D95E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FD0C7A126B8363400D95E02 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		0FD0C7A326B8374800D95E02 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		0FD0C7A526B83FB400D95E02 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		0FD0C7A726B846AF00D95E02 /* CompletedToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		0FD0C76226B8321C00D95E02 = {
 			isa = PBXGroup;
 			children = (
+				0FD0C7A726B846AF00D95E02 /* CompletedToDoViewController.swift */,
+				0FD0C7A526B83FB400D95E02 /* AddToDoViewController.swift */,
 				0FD0C76D26B8321C00D95E02 /* ToDoList */,
 				0FD0C78726B8321E00D95E02 /* ToDoListTests */,
 				0FD0C79226B8321E00D95E02 /* ToDoListUITests */,
@@ -267,7 +273,9 @@
 				0FD0C76F26B8321C00D95E02 /* AppDelegate.swift in Sources */,
 				0FD0C7A426B8374800D95E02 /* ToDo.swift in Sources */,
 				0FD0C7A226B8363400D95E02 /* ToDoTableViewController.swift in Sources */,
+				0FD0C7A826B846B000D95E02 /* CompletedToDoViewController.swift in Sources */,
 				0FD0C77126B8321C00D95E02 /* SceneDelegate.swift in Sources */,
+				0FD0C7A626B83FB400D95E02 /* AddToDoViewController.swift in Sources */,
 				0FD0C77926B8321C00D95E02 /* ToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
